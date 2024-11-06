@@ -28,6 +28,10 @@ typedef struct {
 } Rental;
 
 typedef struct {
+    int rentalID;
+}RentalID;
+
+typedef struct {
     Customer tab[204];
     int NB;
 }Customer_Block;
@@ -43,4 +47,20 @@ typedef struct {
     Rental tab[325];
     int NB;
 }Rental_Block;
-#endif 
+typedef struct {
+    RentalID tab[4];
+    int NB;
+}RentalID_Block;
+
+typedef struct Entete{
+    int nbblock;
+    int nins;
+}Entete;
+
+typedef struct TOF
+{
+    char file_name[200];
+    Entete entete;
+}TOF;
+
+#endif
