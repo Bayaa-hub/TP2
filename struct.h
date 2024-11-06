@@ -27,4 +27,20 @@ typedef struct {
     Date returnDate;
 } Rental;
 
+typedef struct {
+    Customer tab[204];
+    int NB;
+}Customer_Block;
+typedef struct {
+    Date tab[12];
+    int NB;
+}Date_Block;
+typedef struct {
+    Game tab[108];
+    int NB;
+}Game_Block;
+typedef struct {
+    Rental tab[325];
+    int NB;
+}Rental_Block;
 #endif 
