@@ -32,23 +32,23 @@ typedef struct {
 }RentalID;
 
 typedef struct {
-    Customer tab[204];
+    Customer tab[250];
     int NB;
 }Customer_Block;
 typedef struct {
-    Date tab[12];
+    Date tab[50];
     int NB;
 }Date_Block;
 typedef struct {
-    Game tab[108];
+    Game tab[150];
     int NB;
 }Game_Block;
 typedef struct {
-    Rental tab[325];
+    Rental tab[400];
     int NB;
 }Rental_Block;
 typedef struct {
-    RentalID tab[4];
+    RentalID tab[50];
     int NB;
 }RentalID_Block;
 
